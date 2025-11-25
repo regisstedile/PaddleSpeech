@@ -1,0 +1,35 @@
+🎯 COMO USAR O SISTEMA DE TRANSCRIÇÃO
+=====================================
+
+🚀 INÍCIO RÁPIDO:
+
+1. Abra PowerShell na pasta do projeto
+2. Execute os comandos:
+
+   & c:/Users/Admin/Videos/1-PaddleSpeech/whisper_nocache/Scripts/Activate.ps1
+   python USAR_ESTE_SCRIPT.py
+
+3. Aguarde o processamento
+4. Verifique os resultados na pasta OUTPUT/
+
+📁 PREPARAÇÃO:
+- Coloque arquivos .mp3/.wav/.m4a em:
+  * INPUT/
+  * PaddleSpeech/INPUT/
+
+✅ TESTADO E FUNCIONAL:
+- Whisper: 14 modelos disponíveis
+- Ambiente: whisper_nocache configurado
+- Arquivo de teste: KORG processado com sucesso
+
+🎯 SCRIPT PRINCIPAL: USAR_ESTE_SCRIPT.py
+- Otimizado para Windows
+- Modelo 'tiny' (rápido)
+- Interface clara
+- Detecção automática
+
+📊 STATUS: PROJETO 100% ORGANIZADO E FUNCIONAL
+==============================================
+
+Data: 01/08/2025
+Última atualização: Sistema testado e funcionando perfeitamente

@@ -1,0 +1,56 @@
+🇷🇺 COMANDO MANUAL PARA PROCESSAR ÁUDIO RUSSO
+==============================================
+
+Se os scripts automáticos não funcionarem, use este método manual:
+
+1️⃣ ABRIR PROMPT DE COMANDO
+   - Pressione Win + R
+   - Digite: cmd
+   - Pressione Enter
+
+2️⃣ NAVEGAR PARA A PASTA
+   cd C:\Users\Admin\Videos\1-PaddleSpeech
+
+3️⃣ INSTALAR WHISPER
+   pip install openai-whisper
+
+4️⃣ PROCESSAR O ARQUIVO
+   whisper "INPUT\Tramplin - Deep House Lost. Act .mp3" --language russian --output_dir OUTPUT
+
+   OU se o arquivo estiver em PaddleSpeech\INPUT:
+   whisper "PaddleSpeech\INPUT\Tramplin - Deep House Lost. Act .mp3" --language russian --output_dir OUTPUT
+
+5️⃣ AGUARDAR
+   - O processamento pode demorar 5-15 minutos
+   - Whisper irá baixar o modelo na primeira vez (alguns minutos)
+   - Mostrará progresso na tela
+
+6️⃣ VERIFICAR RESULTADO
+   - Arquivo .txt será criado na pasta OUTPUT
+   - Nome será algo como "Tramplin - Deep House Lost. Act .txt"
+
+🔧 SE DER ERRO:
+
+Erro de Python não encontrado:
+   - Instalar Python de python.org
+   - Ou: winget install Python.Python.3.12
+
+Erro de memória:
+   - Usar modelo menor: --model tiny
+   - Ou: --model small
+
+Erro de arquivo não encontrado:
+   - Verificar caminho exato do arquivo
+   - Usar aspas duplas ao redor do caminho
+
+🎯 COMANDO COMPLETO PRONTO:
+cd C:\Users\Admin\Videos\1-PaddleSpeech && pip install openai-whisper && whisper "INPUT\Tramplin - Deep House Lost. Act .mp3" --language russian --output_dir OUTPUT --model base
+
+💡 ALTERNATIVAS:
+1. AssemblyAI (online)
+2. Google Speech-to-Text
+3. Yandex SpeechKit
+4. Rev.com (pago)
+
+✅ SUCESSO ESPERADO:
+Arquivo de texto em russo na pasta OUTPUT com a transcrição completa.

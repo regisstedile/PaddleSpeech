@@ -1,0 +1,24 @@
+# Audio Transcription System - Dependencies
+# Project: PaddleSpeech Transcription Workflow
+# Python: 3.8+
+
+# Core dependencies
+openai-whisper>=20230314
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio processing
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+
+# Utilities
+tqdm>=4.65.0
+numpy>=1.24.0
+
+# Optional: Translation support
+deep-translator>=1.11.4
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0

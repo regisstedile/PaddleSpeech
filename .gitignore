@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+whisper_*/
+paddlespeech_env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+OUTPUT/
+logs/
+*.log
+*.json
+
+# Audio files (optional - uncomment if needed)
+# INPUT/*.mp3
+# INPUT/*.wav
+# INPUT/*.m4a
+
+# PaddleSpeech repository (should be pip installed)
+PaddleSpeech/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+transcription_progress.json

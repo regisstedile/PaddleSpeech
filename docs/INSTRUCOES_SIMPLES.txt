@@ -1,0 +1,37 @@
+PROCESSADOR DE AUDIO RUSSO - INSTRUCOES SIMPLES
+==============================================
+
+PROBLEMA: Os scripts anteriores tinham emojis que causaram erro no Windows.
+
+SOLUCAO: Use um dos scripts limpos criados:
+
+1. processar_russo_LIMPO.bat
+   - Script completo sem emojis
+   - Verifica tudo automaticamente
+   - Processa o arquivo
+
+2. comando_direto.bat
+   - Comando minimo e direto
+   - Apenas 4 linhas
+
+COMO USAR:
+1. Clique duplo em processar_russo_LIMPO.bat
+2. Aguarde a instalacao do Whisper
+3. Aguarde o processamento (5-15 minutos)
+4. Resultado aparecera na pasta OUTPUT
+
+OU COMANDO MANUAL:
+1. Abrir Prompt de Comando (cmd)
+2. Digitar: cd C:\Users\Admin\Videos\1-PaddleSpeech
+3. Digitar: pip install openai-whisper
+4. Digitar: whisper "INPUT\Tramplin - Deep House Lost. Act .mp3" --language russian --output_dir OUTPUT
+
+RESULTADO ESPERADO:
+- Arquivo texto com transcricao em russo
+- Salvo na pasta OUTPUT
+- Nome: Tramplin - Deep House Lost. Act .txt
+
+SE DER ERRO:
+- Verificar se Python esta instalado
+- Verificar se arquivo MP3 existe na pasta INPUT
+- Tentar modelo menor: --model tiny
